@@ -1,0 +1,28 @@
+#include<iostream>
+
+#include<conio>
+
+#include<string>
+
+#include<stdio>
+
+void main()
+
+{
+ clrscr();
+
+ char str[20];
+
+ int length;
+
+ cout<<"enter the string";
+ 
+gets(str);
+
+ length=strlength(str);
+
+ cout<<"length of the string"<<length;
+
+ getch();
+
+}
